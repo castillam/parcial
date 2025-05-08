@@ -41,7 +41,7 @@ header {
     border-radius: 10px; /* opcional: bordes redondeados */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     padding: 20px;
-    background-color: rgb(245, 250, 255);
+    background-color: rgb(248, 234, 215);
   }
   .ll{
     display: block;
@@ -57,5 +57,5 @@ header {
     border-radius: 10px; /* opcional: bordes redondeados */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     padding: 20px;
-    background-color: bisque;
+    background-color: rgb(248, 234, 217);
   }
