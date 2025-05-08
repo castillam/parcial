@@ -1,0 +1,106 @@
+fieldset {
+    background-color: #c5c5c5;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 12px;
+    padding: 10px;          /* Antes: 20px → ahora: menos espacio */
+    max-width: 500px;
+    margin-left: 40px;
+    margin-right: auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+header {
+    padding: 1px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Cambria', serif;
+  }
+  section nav {
+    background-color: rgb(14, 5, 5);
+    text-align: center;
+    padding: 8px;
+    line-height: 2;
+  }
+  
+  section nav a {
+    color: #ffffff;
+    font-size: large;
+    margin: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  section nav a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+  }
+  h1{
+      font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: rgb(12, 8, 8);
+        padding: 30px;
+        margin: 0;
+      
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(12, 8, 8);
+    padding: 30px;
+    margin: 0;
+  }
+  .ñ{
+background-color: rgb(247, 247, 247);
+padding: 40px;
+ }
+  .k{
+    float: right;
+  }
+  .con{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start; /* coloca el video arriba */
+  
+  }
+  .n{
+
+    display: flex;
+    align-items: center;      /* Centra verticalmente */
+    gap: 20px;                /* Espacio entre imagen y texto */
+    margin: 9px;   
+    float: right;
+    border: 2px solid #000000;
+  }
+  .ll{
+    background-color: rgb(241, 234, 234);
+    padding: 40px;
+  }
+
+  .j{
+    display: block;
+    margin: 40px auto; /* 40px de margen vertical, centrado horizontalmente */
+    border-radius: 10px; /* opcional: bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  footer{
+    background-color: #000000;
+    color: #fffbfb;
+    align-items: center;
+    justify-items: center;
+    padding: 35px;
+    margin-top: 10px;
+}
+  
